@@ -9,15 +9,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Numerocelular />} />
           <Route path='user' element={<Nav />} />
           <Route path="token" element={<Tokendeconfirmacion />} />
           <Route path="errortoken" element={<Error />} />
         </Routes>
-      </BrowserRouter> */}
-      <Nav />
+      </BrowserRouter>
     </div>
   );
 }
