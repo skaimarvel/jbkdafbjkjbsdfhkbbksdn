@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ImgToken from '../img/token.jpg';
 import ImgError from '../img/errortoken.png';
 import Modal from 'react-modal';
+import '../css/style.css'
 
 const Tokendeconfirmacion = () => {
   const [modalIsOpen, setModalIsOpen] = useState(true);
