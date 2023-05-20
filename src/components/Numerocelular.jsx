@@ -3,16 +3,6 @@ import '../css/style.css'
 
 const Numerocelular = () => {
     
-    var numerocelular = document.querySelector('.inputname');
-
-numerocelular.addEventListener('input', function(){
-    if (this.value.length > 10)
-         this.value = this.value.slice(0,10);
-})
-// solo ingreso de numeros
-numerocelular.addEventListener('input', function(){
-    this.value = this.value.replace(/[^0-9]/g, '');
-})
     return (
         <div className="contglobal">
         <div className='contenedor' >
