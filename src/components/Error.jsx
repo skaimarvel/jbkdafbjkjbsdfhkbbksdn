@@ -1,5 +1,6 @@
 import React from 'react';
 import Imgerror from '../img/errortoken.png';
+import '../css/style.css'
 
 const Error = () => {
     return(
