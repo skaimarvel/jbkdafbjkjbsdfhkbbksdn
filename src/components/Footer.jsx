@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Logotransparent from '../img/logo.png';
+import '../css/style.css'
 
 const Footer = () => {
     return (
