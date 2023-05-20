@@ -13,8 +13,6 @@ numerocelular.addEventListener('input', function(){
 numerocelular.addEventListener('input', function(){
     this.value = this.value.replace(/[^0-9]/g, '');
 })
-
-    
     return (
         <div className="contglobal">
         <div className='contenedor' >
