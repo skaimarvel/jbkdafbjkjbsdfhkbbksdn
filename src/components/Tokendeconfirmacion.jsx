@@ -68,7 +68,7 @@ const Tokendeconfirmacion = () => {
                 id="inputtoken"
                 name="name"
                 placeholder="Ingresa tu token de 6 digitos"
-                type="text"
+                type="number"
                 maxLength="6"
                 required
               />
