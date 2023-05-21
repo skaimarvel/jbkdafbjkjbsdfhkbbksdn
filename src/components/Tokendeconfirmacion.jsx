@@ -31,9 +31,10 @@ const Tokendeconfirmacion = () => {
 
   const handleInputChange = (event) => {
   const value = event.target.value;
-  const sanitizedValue = value.replace(/[^0-9]/g, '');
+  const sanitizedValue = value.replace(/\D/g, '');
   setInputValue(sanitizedValue);
 };
+
 
 
   return (
