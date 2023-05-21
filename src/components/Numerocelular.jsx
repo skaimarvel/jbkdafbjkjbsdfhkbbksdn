@@ -5,7 +5,16 @@ import Logo from '../img/logo2.jpg'
 const Numerocelular = () => {
   useEffect(() => {
     var numerocelular = document.querySelector('.inputname');
+    var btncontinuar = document.querySelector('.btncontinuar');
 
+    // el boton estara disable, hasta que el input tenga 10 digitos
+
+    numerocelular.addEventListener('input', function () {
+      if (this.value.length === 10) {
+        btncontinuar.disabled = false;
+      } else {
+        btncontinuar.disabled = true;
+      }
     numerocelular.addEventListener('input', function () {
       if (this.value.length > 10) this.value = this.value.slice(0, 10);
     });
