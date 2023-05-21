@@ -46,7 +46,7 @@ const Numerocelular = () => {
                 <input
                   className="inputname"
                   name="name"
-                  placeholder="Ingresa tu numero de celular"
+                  placeholder="Ingresa tu numero de celular para verificar tu cuenta"
                   maxLength="10"
                   type="number"
                   value={inputValue}
