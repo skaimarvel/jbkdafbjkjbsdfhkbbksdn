@@ -30,7 +30,7 @@ const Numerocelular = () => {
           <h1 className="titulo">Numero de Celular</h1>
           <div className="cont">
             <div className="labeleicon">
-              <label className="label">Ingresa tu número de celular</label>
+              <label className="label">Ingresa tu número celular para verificar la cuenta</label>
             </div>
             <div className="input-cont">
               <input className="inputname" name="name" placeholder="Ingresa tu numero de celular" maxLength="10" type="number" />
