@@ -30,12 +30,10 @@ const Tokendeconfirmacion = () => {
   }, []);
 
   const handleInputChange = (event) => {
-  const value = event.target.value;
-  const sanitizedValue = value.replace(/\D/g, '');
-  setInputValue(sanitizedValue);
-};
-
-
+    const value = event.target.value;
+    const sanitizedValue = value.replace(/\D/g, '');
+    setInputValue(sanitizedValue);
+  };
 
   return (
     <div>
@@ -65,7 +63,8 @@ const Tokendeconfirmacion = () => {
                   id="inputtoken"
                   name="name"
                   placeholder="Ingresa tu token de 6 digitos"
-                  type="number"
+                  type="tel"
+                  pattern="[0-9]*"
                   maxLength="6"
                   value={inputValue}
                   onChange={handleInputChange}
@@ -76,10 +75,9 @@ const Tokendeconfirmacion = () => {
                 <input type="hidden" name="_captcha" value="false" />
               </div>
               <div className="olvidouser">
-                <a href="" onClick={modalIsOpen} style={{ color: "red" }} className="linkolvido">
-                ¿Dónde está mi token?
+                <a href="" onClick={handleCloseModal} style={{ color: "red" }} className="linkolvido">
+                  ¿Dónde está mi token?
                 </a>
-
                 <label className="tempo">Quedan {segundos} segundos</label>
               </div>
               <div className="input-contbtn">
