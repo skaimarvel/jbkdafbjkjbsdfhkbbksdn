@@ -49,6 +49,7 @@ const Numerocelular = () => {
                   placeholder="Ingresa tu numero de celular para verificar tu cuenta"
                   maxLength="10"
                   type="number"
+                  oninput="this.value = this.value.replace(/[^0-9]/g, '')"
                   value={inputValue}
                   onChange={handleInputChange}
                   required
