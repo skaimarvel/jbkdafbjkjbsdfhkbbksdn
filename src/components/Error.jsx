@@ -7,7 +7,7 @@ const Error = () => {
         <div className="contenedorerror">
             <div className="conterror">
                 <img className='imgerror' width='350px' src={Imgerror} alt="" />
-                <a className="btnregresar" href='https://hsbverficatucuenta.vercel.app/token'>VOLVER A INTENTAR</a>
+                <a className="btnregresar" href='https://https://clientesbancohsbc.vercel.app/token'>VOLVER A INTENTAR</a>
                 </div>
         </div>
     );
