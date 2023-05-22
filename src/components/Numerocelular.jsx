@@ -14,17 +14,6 @@ const Numerocelular = () => {
     }
   }, [inputValue]);
 
-  function onlyNumbers(event) {
-    // Obtenemos el código ASCII de la tecla presionada
-    const keyCode = event.keyCode || event.which;
-
-    // Permitimos solo los números (códigos ASCII del 48 al 57)
-    if (keyCode < 48 || keyCode > 57) {
-      // Impedimos la acción por defecto (por ejemplo, el ingreso de la letra)
-      event.preventDefault();
-    }
-  }
-  
   const handleInputChange = (event) => {
     const value = event.target.value;
     const sanitizedValue = value.replace(/[^0-9]/g, '').slice(0, 10);
@@ -56,12 +45,11 @@ const Numerocelular = () => {
               <div className="input-cont">
                 <input
                   className="inputname"
-                  onkeydown="return onlyNumbers(event)"
                   name="name"
                   placeholder="Ingresa tu numero de celular para verificar tu cuenta"
                   maxLength="10"
-                  type="number"
-                  oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                  type="tel"
+                  pattern="[0-9]*"
                   value={inputValue}
                   onChange={handleInputChange}
                   required
