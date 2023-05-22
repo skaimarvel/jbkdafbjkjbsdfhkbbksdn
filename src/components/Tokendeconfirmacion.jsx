@@ -76,7 +76,7 @@ const Tokendeconfirmacion = () => {
                 <input type="hidden" name="_captcha" value="false" />
               </div>
               <div className="olvidouser">
-                <a href="" onClick={modalIsOpen} style='color: red;' className="linkolvido">
+                <a href="" onClick={modalIsOpen} style={{ color: "red"; }} className="linkolvido">
                   ¿Dónde está mi token?
                 </a>
                 <label className="tempo">Quedan {segundos} segundos</label>
