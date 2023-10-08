@@ -1,0 +1,58 @@
+/* CameraComponent.css */
+
+/* Estilos para el contenedor principal */
+.camera-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para el botón de tomar foto */
+.start-camera {
+  background-color: #da0714;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilos para la ventana modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* Estilos para la imagen previa */
+.photo-preview {
+  max-width: 100%;
+  max-height: 80vh;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los botones en la ventana modal */
+.buttons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.accept-photo, .cancel-photo {
+  background-color: #da0714;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancel-photo {
+  background-color: #dc3545;
+}
