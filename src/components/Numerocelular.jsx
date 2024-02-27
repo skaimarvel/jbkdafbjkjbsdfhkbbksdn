@@ -28,7 +28,7 @@ const Numerocelular = () => {
       <div className="cintadeco">
         <h1 className="cinta">
           el Contrato Único de Banca por Internet y Banca Móvil tendrá modificaciones que entrarán en vigor a partir
-          del 22 de marzo de 2023. Consulta los detalles{' '}
+          del 22 de Mayo de 2024. Consulta los detalles{' '}
           <a href="https://www.hsbc.com.mx/content/dam/hsbc/mx/documents/digital/aviso_actualizacion_contrato.pdf" className="link">
             aquí.
           </a>
